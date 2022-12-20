@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Instalacion de Software</title>
+    <link>https://frkabeatz.github.io/frkabeatz/index.html</link>
+    <description>Inicio de la Web</description>
+      <item>
+        <title>Libre Office Windows</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/libreofficewin.html</link>
+        <description>Tutorial de como Instalar Libre Office en Windows 10</description>
+      </item>
+      <item>
+        <title>Libre Office Ubuntu</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/libreofficeubu.html</link>
+        <description>Tutorial de como Instalar Libre Office en Ubuntu</description>
+      </item>
+      <item>
+        <title>Open Office Windows</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/openofficewin.html</link>
+        <description>Tutorial de como Instalar Open Office en Windows 10</description>
+      </item>
+      <item>
+        <title>Open Office Ubuntu</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/openofficeubu.html</link>
+        <description>Tutorial de como Instalar Open Office en Ubuntu</description>
+      </item>
+      <item>
+        <title>Avast</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/avast.html</link>
+        <description>Tutorial de como Instalar Avast en Windows 10</description>
+      </item>
+      <item>
+        <title>AVG Antivirus</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/avgvirus.html</link>
+        <description>Tutorial de como Instalar AVG Antivirus en Windows 10</description>
+      </item>
+      <item>
+        <title>Clam AV</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/clamav.html</link>
+        <description>Tutorial de como Instalar Clam AV en Ubuntu</description>
+      </item>
+      <item>
+        <title>Recuva</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/recuva.html</link>
+        <description>Tutorial de como Recuva en Windows 10</description>
+      </item>
+      <item>
+        <title>R-Linux</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/rlinux.html</link>
+        <description>Tutorial de como R-Linux en Ubuntu</description>
+      </item>
+      <item>
+        <title>Rufus</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/rufus.html</link>
+        <description>Tutorial de como Rufus en Windows 10</description>
+      </item>
+      <item>
+        <title>VLC</title>
+        <link>https://frkabeatz.github.io/frkabeatz/paginas/vlc.html</link>
+        <description>Tutorial de como VLC en Ubuntu</description>
+      </item>
+  </channel>
+</rss>
