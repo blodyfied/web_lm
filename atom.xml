@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xml:lang="es"
+      xml:base="https://frkabeatz.github.io/frkabeatz/">
+    <id>https://frkabeatz.github.io/frkabeatz/</id>
+    <title>Instalacion de Software</title>
+    <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/"/>
+    <updated>2020-12-13T18:30:02Z</updated>
+    <entry>
+        <title>Libre Office Windows</title>
+        <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/paginas/libreofficewin.html"/>
+        <id>https://frkabeatz.github.io/frkabeatz/paginas/libreofficewin.html</id>
+        <updated>2020-12-13T18:30:02Z</updated>
+    </entry>
+    <entry>
+        <title>Libre Office Ubuntu</title>
+        <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/paginas/libreofficeubu.html"/>
+        <id>https://frkabeatz.github.io/frkabeatz/paginas/libreofficeubu.html</id>
+        <updated>2020-12-13T18:30:02Z</updated>
+    </entry>
+    <entry>
+        <title>Open Office Windows</title>
+        <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/paginas/openofficewin.html"/>
+        <id>https://frkabeatz.github.io/frkabeatz/paginas/openofficewin.html</id>
+        <updated>2020-12-13T18:30:02Z</updated>
+    </entry>
+    <entry>
+        <title>Open Office Ubuntu</title>
+        <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/paginas/openofficeubu.html"/>
+        <id>https://frkabeatz.github.io/frkabeatz/paginas/openofficeubu.html</id>
+        <updated>2020-12-13T18:30:02Z</updated>
+    </entry>
+    <entry>
+        <title>Avast</title>
+        <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/paginas/avast.html"/>
+        <id>https://frkabeatz.github.io/frkabeatz/paginas/avast.html</id>
+        <updated>2020-12-13T18:30:02Z</updated>
+    </entry>
+    <entry>
+        <title>AVG Antivirus</title>
+        <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/paginas/avgvirus.html"/>
+        <id>https://frkabeatz.github.io/frkabeatz/paginas/avgvirus.html</id>
+        <updated>2020-12-13T18:30:02Z</updated>
+    </entry>
+    <entry>
+        <title>Clam AV</title>
+        <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/paginas/clamav.html"/>
+        <id>https://frkabeatz.github.io/frkabeatz/paginas/clamav.html</id>
+        <updated>2020-12-13T18:30:02Z</updated>
+    </entry>
+    <entry>
+        <title>Recuva</title>
+        <link rel="alternate" href="https://frkabeatz.github.io/frkabeatz/paginas/recuva.html"/>
+        <id>https://frkabeatz.github.io/frkabeatz/paginas/recuva.html</id>
+        <updated>2020-12-13T18:30:02Z</updated>
+    </entry>
+</feed>
