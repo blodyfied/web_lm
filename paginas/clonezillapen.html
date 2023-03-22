@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <label id="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <title>Clonezilla Pendrive/Disco Duro</title>
+    <link rel="stylesheet" href="..\estilos\estiloscontenidos.css"/>
+    <script src="..\scripts\temas.js"></script>
+  </head>
+  <body>
+  <h1>Clonezilla Pendrive/Disco Duro</h1>
+  <div id="center">
+  <img class="principal" src="../imagenes/clonezilla.jpg"><br><br><br>
+  </div>
+  Clonezilla es un software libre de recuperación de una imagen creada de un sistema operativo,<br>
+  tiene diversas funcionalidades como crear una imagen del sistema o eliminarla o por ejemplo eliminar una partición.<br>
+  Clonezilla está diseñado por Steven Shaiu y desarrollado por el NCHC Labs en Taiwán.<br><br>
+
+  <h2>Creacion del Pendrive de Arranque</h2>
+
+  Para crear nuestro pendrive de arranque utilizaremos la herramienta de creacion de discos de Ubuntu,<br>
+  tambien tendremos que tener descargado el archivo ISO de Clonezilla.<br><br>
+
+  Entonces seleccionamos nuestro Pendrive y el Archivo ISO de Clonezilla para iniciar el proceso.<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/a.png"><br><br>
+
+  Esperamos a que se termine el proceso<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/b.png"><br><br>
+
+  Le damos a Instalar<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/c.png"><br><br>
+
+  Esperamos a que se instale<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/d.png"><br><br>
+
+  Ya estaria instalado Clonezilla en el pendrive<br><br>
+
+  <h2>Creación de la Imagen en el Disco</h2>
+
+  En este apartado vamos a crear una imagen de disco del equipo y la guardaremos en la particion que tengo hecha en el pendrive<br>
+  Lo primero que vamos hacer sera enchufar nuestro pendrive y arrancar el equipo con el para acceder al menu de Clonezilla<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/1.jpg"><br><br>
+
+  En este menu seleccionaremos la primera opcion para pasar al siguiente proceso<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/2.jpg"><br><br>
+
+  A continuación seleccionaremos el idioma que usaremos para el teclado<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/3.jpg"><br><br>
+
+  Le decimos que si queremos mantener la configuracion seleccionada<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/4.jpg"><br><br>
+
+  Y seleccionamos "Aceptar" para arrancar Clonezilla<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/5.jpg"><br><br>
+
+  En este menu selecionaremos la opcion <b>device_image</b> para realizar una imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/6.jpg"><br><br>
+
+  En este menu selecionaremos el modo <b>local_dev</b> para usar la particion de que hemos creado<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/8.jpg"><br><br>
+
+  En este apartado seleccionaremos la particion que realizamos en el pendrive para alojar la imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/9.jpg"><br><br>
+
+  En mi caso voy a omitir el chequeo del disco para que se realize mas rapido, pero siempre recomiendo hacerlo para evitar errores en el disco<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/12.jpg"><br><br>
+
+  En este parte me esta diciendo en que directorio quiero almacenar la imagen, yo lo voy a dejar por defecto en el raiz "/"<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/14.jpg"><br><br>
+
+  Aqui simplemente le daremos a Principiante para que se automaticen algunos procesos y sea mas rapida la creación de la imagen<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/15.jpg"><br><br>
+
+  Ahora seleccionamos en este menu el modo <b>save_disk</b> para guardar el disco local como imagenes<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/16.jpg"><br><br>
+
+  A continuación pondremos el nombre a la imagen del disco<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/17.jpg"><br><br>
+
+  Seleccionamos el disco del cual realizaremos la imagen<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/18.jpg"><br><br>
+
+  Aqui simplemente usaremos la zip, porque es la que mas se usa y no da problemas de compatilidad<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/19.jpg"><br><br>
+
+  Omitiremos el chequeo del sistema de archivos porque asi es mas rapido, pero siempre recomiendo hacer este chequeo para evitar errores inoportunos<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/20.jpg"><br><br>
+
+  Tambien nos saltaremos la comprobacion despues de que se guarde para saber si es restaurable, pero recomiendo siempre hacerla para evitar errores<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/21.jpg"><br><br>
+
+  En mi caso no me hace falta cifrar los datos, pero si lo desea puede usar una contraseña para que solo usted pueda usar esa imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/22.jpg"><br><br>
+
+  Y por ultimo seleccionaremos la accion que queremos que haga el equipo cuando se termine de hacer la imagen, en mi caso lo quiero apagar<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/24.jpg"><br><br>
+
+  Confirmamos por ultima vez de que si queremos hacer la imagen de disco en la particion de nuestro pendrive<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/25.jpg"><br><br>
+
+  Y esperamos a que se realice el proceso<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/26.jpg"><br><br>
+
+  Y estaria hecha nuestra imagen, ahora pasaremos a la restauracion
+
+  <h2>Restauración con la Imagen de Disco</h2>
+
+  En este apartado realizaremos la restauración del equipo con la imagen de disco que hemos hecho anteriormente<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/27.jpg"><br><br>
+
+  Volvemos a seleccionar la primera opcion para entrar al menu de Clonezilla<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/28.jpg"><br><br>
+
+  Ahora en este menu seleccionaremos la opcion <b>restore_disk</b> para poder usar la imagen que hemos hecho anteriormente<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/29.jpg"><br><br>
+
+  Seleccionamos la imagen que hicimos<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/30.jpg"><br><br>
+
+  Ahora seleccionamos el disco donde vamos a instalar la imagen para poder restaurarlo<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/31.jpg"><br><br>
+
+  Le diremos que si vamos a usar la misma tabla de particiones para que no haya fallos<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/32.jpg"><br><br>
+
+  Y nos volvemos a saltar las comprobaciones porque es mas rapido de esta manera, pero recomiendo hacerla por si esta dañada<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/33.jpg"><br><br>
+
+  Y ya aqui nos va a pedir lo que va hacer el equipo cuando termine de restaurarse, en mi caso lo apago<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/34.jpg"><br><br>
+
+  Nos sale un aviso de que el disco va a ser borrado para poder instalar la imagen y le damos que si<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/35.jpg"><br><br>
+
+  Y esperamos a que se termine la restauración<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/37.jpg"><br><br>
+
+  Como podemos comprobar el disco equipo se ha restaurado correctamente
+
+
+
+  </body>
+</html>
