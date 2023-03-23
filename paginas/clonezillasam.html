@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <label id="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <title>Clonezilla Samba/SSH</title>
+    <link rel="stylesheet" href="..\estilos\estiloscontenidos.css"/>
+    <script src="..\scripts\temas.js"></script>
+  </head>
+  <body>
+  <h1>Clonezilla Samba/SSH</h1>
+  <div id="center">
+  <img class="principal" src="../imagenes/clonezilla.jpg"><br><br><br>
+  </div>
+  Clonezilla es un software libre de recuperación de una imagen creada de un sistema operativo,<br>
+  tiene diversas funcionalidades como crear una imagen del sistema o eliminarla o por ejemplo eliminar una partición.<br>
+  Clonezilla está diseñado por Steven Shaiu y desarrollado por el NCHC Labs en Taiwán.<br><br>
+
+  <h2>Creacion del Pendrive de Arranque</h2>
+
+  Para crear nuestro pendrive de arranque utilizaremos la herramienta de creacion de discos de Ubuntu,<br>
+  tambien tendremos que tener descargado el archivo ISO de Clonezilla.<br><br>
+
+  Entonces seleccionamos nuestro Pendrive y el Archivo ISO de Clonezilla para iniciar el proceso.<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/a.png"><br><br>
+
+  Esperamos a que se termine el proceso<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/b.png"><br><br>
+
+  Le damos a Instalar<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/c.png"><br><br>
+
+  Esperamos a que se instale<br><br>
+
+  <img class="general" src="../imagenes/Clonezilla/d.png"><br><br>
+
+  Ya estaria instalado Clonezilla en el pendrive<br><br>
+
+  <h2>Creación de la Imagen de Disco en el Servidor con Samba</h2>
+
+  En este apartado vamos a crear una imagen de disco del equipo y la guardaremos en el equipo que hara de Servidor<br><br>
+  con la funcionalidad de Samba<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/1.jpg"><br><br>
+
+  Pues como en el tutorial anterior seleccionaremos la primera opción para arrancar Clonezilla porque no da problemas y es la<br><br>
+  opción estandar<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/2.jpg"><br><br>
+
+  Seleccionamos Español como idioma del teclado<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/3.jpg"><br><br>
+
+  En este menu selecionaremos la opcion <b>device_image</b> para realizar una imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/4.jpg"><br><br>
+
+  En este menu vamos a seleccionar la opcion de <b>samba_server</b> para enviar la imagen de disco al server<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/5.jpg"><br><br>
+
+  A la hora de poner la IP es preferible ponerla en estatico por que asi no da problemas<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/6.jpg"><br><br>
+
+  Aqui tendremos que poner la IP de nuestro equipo<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/7.jpg"><br><br>
+
+  Tambien pondremos la dirección MAC<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/8.jpg"><br><br>
+
+  En esta sección vamos a poner la Puerta de Enlace de nuestra red<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/9.jpg"><br><br>
+
+  En la resolución de nombre pondre el DNS de Google porque es uno de los mejores y porque es el que mas se utiliza<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/10.jpg"><br><br>
+
+  Aqui pondremos la dirección IP del servidor al que enviaremos la imagen del disco<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/11.jpg"><br><br>
+
+  En este apartado pondremos la ruta donde queremos que se guarde la copia<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/12.jpg"><br><br>
+
+  Y ponemos las contraseña para acceder a el<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/13.jpg"><br><br>
+
+  Aqui simplemente le daremos a Principiante para que se automaticen algunos procesos y sea mas rapida la creación de la imagen<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/14.jpg"><br><br>
+
+  Ahora seleccionamos en este menu el modo save_disk para guardar el disco local como imagenes<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/15.jpg"><br><br>
+
+  Le ponemos un nombre a nuestra imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/16.jpg"><br><br>
+
+  Seleccionamos el disco del cual vamos hacer la copia<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/17.jpg"><br><br>
+
+  Aqui simplemente usaremos la zip, porque es la que mas se usa y no da problemas de compatilidad<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/18.jpg"><br><br>
+
+  Omitiremos el chequeo del sistema de archivos porque asi es mas rapido, pero siempre recomiendo hacer este chequeo para evitar errores inoportunos<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/20.jpg"><br><br>
+
+  Tambien nos saltaremos la comprobacion despues de que se guarde para saber si es restaurable, pero recomiendo siempre hacerla para evitar errores<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/21.jpg"><br><br>
+
+  Y esperamos a que se realice<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/22.jpg"><br><br>
+
+  Y ya estaria hecha nuestra copia en el servidor<br><br>
+
+  <h2>Restauración de una imagen de disco con SSH desde un servidor</h2>
+
+  En esta parte del tutorial vamos a aprender como usar imagen de disco alojada en un servidor para poder restaurar nuestro equipo mediante la funcionalidad SSH<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/23.jpg"><br><br>
+
+  Pues como en el tutorial anterior seleccionaremos la primera opción para arrancar Clonezilla porque no da problemas y es la opción estandar<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/24.jpg"><br><br>
+
+  En este menu selecionaremos la opcion <b>device_image</b> para usar una imagen de disco para restaurar el equipo<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/25.jpg"><br><br>
+
+  Y seleccionaremos la funcionalidad SSH para recuperar nuestra imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/26.jpg"><br><br>
+
+  A la hora de poner la IP es preferible ponerla en estatico por que asi no da problemas<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/27.jpg"><br><br>
+
+  Aqui tendremos que poner la IP de nuestro equipo<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/28.jpg"><br><br>
+
+  Tambien pondremos la dirección MAC<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/29.jpg"><br><br>
+
+  En esta sección vamos a poner la Puerta de Enlace de nuestra red<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/30.jpg"><br><br>
+
+  En la resolución de nombre pondre el DNS de Google porque es uno de los mejores y porque es el que mas se utiliza<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/31.jpg"><br><br>
+
+  Aqui pondremos la dirección IP del servidor al que accederemos para recuperar la imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/32.jpg"><br><br>
+
+  Ahora pondremos el nombre del usuario que tiene los permisos para poder acceder al servidor<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/33.jpg"><br><br>
+
+  En esta sección ponemos la direccion donde se encuentra alojada la imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/35.jpg"><br><br>
+
+  Aceptamos de que queremos entrar al servidor y nos pedira la contraseña del usuarioremoto<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/36.jpg"><br><br>
+
+  Ponemos la contraseña<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/37.jpg"><br><br>
+
+  Ahora seleccionamos la acción que vamos a querer hacer, nosotros como vamos a restaurar el equipo vamos a seleccionar <b>restore_disk</b><bR><bR>
+
+  <img class="general" src="../imagenes/clonezillasam/38.jpg"><br><br>
+
+  Seleccionamos nuestra imagen de disco<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/39.jpg"><br><br>
+
+  Ahora seleccionamos el disco donde vamos a instalar la imagen<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/40.jpg"><br><br>
+
+  Le diremos que si vamos a usar la misma tabla de particiones para que no haya fallos<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/41.jpg"><br><br>
+
+  Y nos volvemos a saltar las comprobaciones porque es mas rapido de esta manera, pero recomiendo hacerla por si esta dañada<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/42.jpg"><br><br>
+
+  Y ya aqui nos va a pedir lo que va hacer el equipo cuando termine de restaurarse, en mi caso lo apago<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/43.jpg"><br><br>
+
+  Nos avisa de que va a borrar todo el contenido del disco, le decimos que si<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/44.jpg"><br><br>
+
+  Esperamos a que se restaure<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/45.jpg"><br><br>
+
+  El proceso ya ha terminado, ahora comprobaremos si se ha restaurado correctamente<br><br>
+
+  <img class="general" src="../imagenes/clonezillasam/46.jpg"><br><br>
+
+  La restauración ha funcionado y ha quedado un equipo totalmente funcional<br><br>
+
+
+
+  </body>
+</html>
